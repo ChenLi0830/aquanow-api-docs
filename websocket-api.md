@@ -11,11 +11,17 @@
 **Subscription Message:**
 ```javascript
 {
-  "type": "subscribe",      // Message Type
-  "channel": 'orderbook',   // Subscription Channel
-  "pair": 'BTCUSD'         // Symbol
+  "type": "subscribe",
+  "channel": "orderBook",
+  "pair": "BTCUSD"
 }
 ```
+| Param Name    | Description   |
+| ------------- |:-------------:|
+| `type`        | Message Type  |
+| `channel`     | Subscription Channel  |
+| `pair`        | Symbol        |
+
 
 **Payload:**
 ```javascript
